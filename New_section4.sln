@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{bf618e1b-cecf-6a1d-9c08-47b5b00ea945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.editor", "sc.terrain.painter.editor.csproj", "{f487c78a-f42a-6aa3-cc31-27c11d55f97e}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{bf618e1b-cecf-6a1d-9c08-47b5b00ea945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bf618e1b-cecf-6a1d-9c08-47b5b00ea945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f487c78a-f42a-6aa3-cc31-27c11d55f97e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f487c78a-f42a-6aa3-cc31-27c11d55f97e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
