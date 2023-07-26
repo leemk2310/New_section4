@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -302,7 +302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.16519456, y: 0.05893354, z: 0.08097123, w: 0.98116326}
-  m_LocalPosition: {x: -0.30000305, y: 19.2, z: -34.1}
+  m_LocalPosition: {x: 2.1, y: 13.3, z: -19.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -459,19 +459,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4558218164696250822, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9999982
       objectReference: {fileID: 0}
     - target: {fileID: 4558218164696250822, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4558218164696250822, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4558218164696250822, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.001919909
       objectReference: {fileID: 0}
     - target: {fileID: 4558218164696250822, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -483,90 +483,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4558218164696250822, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0.22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2596906395257749990, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4440300045738194923}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
---- !u!1 &4440300045738194922 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2596906395257749990, guid: 0438348a55f0bfc4e88eea2cb706e352, type: 3}
-  m_PrefabInstance: {fileID: 4440300045738194921}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4440300045738194923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4440300045738194922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5459ae18bcb8e9e4d9bc82972ca00455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Movement:
-    m_Name: Movement
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: e324a791-fc98-49c1-875a-25d047231a0b
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: 9217efdc-b59d-4e82-ace0-cb406d6406c3
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 4
-    - m_Name: up
-      m_Id: 4666826a-eddb-4937-bef9-85ad3ce5673f
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: down
-      m_Id: 190a19e3-766f-4f9d-9a0e-c454dd39739b
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: left
-      m_Id: 2f7871c9-c29f-4403-a447-d9e91d623bf5
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: right
-      m_Id: 5631d216-5b87-4617-9401-5876649727dc
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: 
-      m_Id: 812f123d-948d-44ea-a98b-d308c5dcfb5b
-      m_Path: <Gamepad>/leftStick
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 0
-    m_Flags: 0
 --- !u!1001 &7651477856531988440
 PrefabInstance:
   m_ObjectHideFlags: 0
