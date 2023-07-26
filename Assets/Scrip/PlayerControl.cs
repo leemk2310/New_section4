@@ -7,36 +7,36 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    
-   [SerializeField] float Movespeed =5f;
-   [SerializeField] float  Xrank = 10f;
-   [SerializeField] float Yrank =10f;
-   [SerializeField] float Pitchfactor =-2f;
-   [SerializeField] float PitchControl =5f;
-   [SerializeField] float Yawfactor = -2f;
 
-   [SerializeField] float RollControl =5f;
+    [SerializeField] float Movespeed = 5f;
+    [SerializeField] float Xrank = 10f;
+    [SerializeField] float Yrank = 10f;
+    [SerializeField] float Pitchfactor = -2f;
+    [SerializeField] float PitchControl = 5f;
+    [SerializeField] float Yawfactor = -2f;
+
+    [SerializeField] float RollControl = 5f;
     // Update is called once per frame
- float HorizontalThrow;
- float Verticalthrow;
-void Update()
-{
-    tranformlocation();
-    tranformRotation();
-}
+    float HorizontalThrow;
+    float Verticalthrow;
+    void Update()
+    {
+        tranformlocation();
+        tranformRotation();
+    }
 
-void tranformRotation()
-{
-    float Pitch = transform.localPosition.y *Pitchfactor  + Verticalthrow*PitchControl;
-    float Yaw = transform.localPosition.x * Yawfactor;
-    float Roll = HorizontalThrow * RollControl;
-    transform.localRotation = Quaternion.Euler(Pitch, Yaw, Roll);
+    void tranformRotation()
+    {
+        float Pitch = transform.localPosition.y * Pitchfactor + Verticalthrow * PitchControl;
+        float Yaw = transform.localPosition.x * Yawfactor;
+        float Roll = HorizontalThrow * RollControl;
+        transform.localRotation = Quaternion.Euler(Pitch, Yaw, Roll);
 
-}
+    }
     void tranformlocation()
     {
-         HorizontalThrow = Input.GetAxis("Horizontal");
-         Verticalthrow = Input.GetAxis("Vertical");
+        HorizontalThrow = Input.GetAxis("Horizontal");
+        Verticalthrow = Input.GetAxis("Vertical");
 
         float Xput = HorizontalThrow * Time.deltaTime * Movespeed; // thuc hien 1 action move
 

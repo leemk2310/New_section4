@@ -864,7 +864,7 @@ MonoBehaviour:
   Movespeed: 20
   Xrank: 10
   Yrank: 10
-  Pitchfactor: -3.5
+  Pitchfactor: -2
   PitchControl: 10
   Yawfactor: 2
   RollControl: -20
