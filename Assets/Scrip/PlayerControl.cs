@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,8 +15,8 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] float Pitchfactor = -2f;
     [SerializeField] float PitchControl = 5f;
     [SerializeField] float Yawfactor = -2f;
-
     [SerializeField] float RollControl = 5f;
+    [SerializeField] GameObject[] ArrayAmmo;
     // Update is called once per frame
     float HorizontalThrow;
     float Verticalthrow;
@@ -23,6 +24,7 @@ public class PlayerControl : MonoBehaviour
     {
         tranformlocation();
         tranformRotation();
+        ProcessFiring();
     }
 
     void tranformRotation()
@@ -50,9 +52,26 @@ public class PlayerControl : MonoBehaviour
 
 
         transform.localPosition = new Vector3(XnewpostRank, YnewpostRank, transform.localPosition.z);
-
-
+    }
+    void ProcessFiring()
+    {
+        if (Input.GetButton ("Fire1"))
+        {
+            ActiveLaser(true);
+        }
+        else 
+        {
+            ActiveLaser(false);
+        }
 
     }
 
+     void ActiveLaser(bool isActive)
+    {
+        foreach (GameObject laser in ArrayAmmo)
+        {
+            var emissionModule = laser.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
+        }
+    }
 }
