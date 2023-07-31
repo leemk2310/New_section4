@@ -43,8 +43,10 @@
      <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
      <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
      <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
+     <Compile Include="Assets\Scrip\CollisionMove.cs" />
      <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
      <Compile Include="Assets\Scrip\PlayerControl.cs" />
+     <Compile Include="Assets\Scrip\paritcleAndEnemy.cs" />
      <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
      <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
      <Compile Include="Assets\StarSparrow\Readme\Readme Files\Scripts\ReadmeStarSparrow.cs" />
