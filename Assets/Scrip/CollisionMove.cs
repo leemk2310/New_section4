@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CollisionMove : MonoBehaviour
 {
-     void OnCollisionEnter(Collision other)
+     void OnTriggerEnter(Collider other) 
     {
-        Debug.Log(this.name + "hit log" + other.gameObject.name);
-    }
-    void OnTriggerEnter(Collider other) {
       Debug.Log($"{this.name}**Trigger by **{other.gameObject.name}");  
+      int reloadLevel = SceneManager.GetActiveScene().buildIndex;
+      SceneManager.LoadScene(reloadLevel);
+
     }
 }
