@@ -8,5 +8,6 @@ public class paritcleAndEnemy : MonoBehaviour
     void OnParticleCollision(GameObject other) 
     {
         Debug.Log($"{this.name}hit on + {other.gameObject.name}");
+         Destroy(gameObject);
     }
 }
