@@ -9,9 +9,9 @@ public class CollisionMove : MonoBehaviour
    [SerializeField] float freezetime  = 2f;
     void OnTriggerEnter(Collider other) 
     {
-      Debug.Log($"{this.name} **Trigger by **{other.gameObject.name}");  
+      //Debug.Log($"{this.name} **Trigger by **{other.gameObject.name}");  
       FreezeAction();
-      
+           
     }
     void FreezeAction()
     {

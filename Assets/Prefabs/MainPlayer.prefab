@@ -199,70 +199,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2431209711245133999, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 2431209711245133999, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2431209711245133999, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.76
-      objectReference: {fileID: 0}
     - target: {fileID: 4073037564066475237, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
       propertyPath: m_Name
       value: StarSparrow6
       objectReference: {fileID: 0}
-    - target: {fileID: 6333835767832737258, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 6333835767832737258, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6333835767832737258, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 8401838149670106164, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: Movespeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8401838149670106164, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      propertyPath: Yawfactor
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4073037564066475237, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4398938145373347888}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
 --- !u!4 &1235563609014118883 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1327186519758295291, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
   m_PrefabInstance: {fileID: 238276908483016984}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4307923392663639549 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4073037564066475237, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
-  m_PrefabInstance: {fileID: 238276908483016984}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4398938145373347888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4307923392663639549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7833a24bad66ae74b98b286d709adfe0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freezetime: 2
