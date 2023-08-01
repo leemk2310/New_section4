@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CollisionMove : MonoBehaviour
 {
-   [SerializeField] float freezetime  = 5f;
+   [SerializeField] float freezetime  = 2f;
     void OnTriggerEnter(Collider other) 
     {
       Debug.Log($"{this.name} **Trigger by **{other.gameObject.name}");  
