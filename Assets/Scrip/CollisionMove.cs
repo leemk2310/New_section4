@@ -13,8 +13,7 @@ public class CollisionMove : MonoBehaviour
     void OnTriggerEnter(Collider other) 
     {
       Debug.Log($"{this.name} **Trigger by **{other.gameObject.name}");  
-      FreezeAction();
-                          
+      FreezeAction();           
     }
     
 
