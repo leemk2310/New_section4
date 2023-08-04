@@ -124,7 +124,7 @@ Transform:
   - {fileID: 3707927241840705231}
   - {fileID: 4457217547227879430}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4653362929814952991
 Animator:
@@ -155,6 +155,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2233874806241716919}
     m_Modifications:
+    - target: {fileID: 20090237045797788, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 217656886208461201, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 705509799529516531, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1327186519758295291, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -199,9 +211,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2871360795198300014, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4073037564066475237, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
       propertyPath: m_Name
       value: StarSparrow6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233812239501169812, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017035427640051446, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737397827570620760, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: lossee
+      value: 
+      objectReference: {fileID: 218943977336834692}
+    - target: {fileID: 6737397827570620760, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: freezetime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614073929295662268, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8705435786048431708, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9127092477973205742, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
       propertyPath: m_LocalScale.x
@@ -229,6 +269,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+--- !u!198 &218943977336834692 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 20090237045797788, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+  m_PrefabInstance: {fileID: 238276908483016984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4457217547227879430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4509704303118197022, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}

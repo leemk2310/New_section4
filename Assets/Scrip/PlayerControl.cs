@@ -55,18 +55,18 @@ public class PlayerControl : MonoBehaviour
     }
     void ProcessFiring()
     {
-        if (Input.GetButton ("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
             ActiveLaser(true);
         }
-        else 
+        else
         {
             ActiveLaser(false);
         }
 
     }
 
-     void ActiveLaser(bool isActive)
+    void ActiveLaser(bool isActive)
     {
         foreach (GameObject laser in ArrayAmmo)
         {
