@@ -5,10 +5,12 @@ using UnityEngine;
 public class paritcleAndEnemy : MonoBehaviour
 {
     [SerializeField] GameObject gameVFX;
+    [SerializeField] GameObject HitVFX;
 
     [SerializeField] Transform parent;
   
     [SerializeField] int countScore = 15;
+    [SerializeField] int hitCountandKill = 5;
 
     ScoreHit scoreBoard;
     void Start()
@@ -17,15 +19,29 @@ public class paritcleAndEnemy : MonoBehaviour
 
     }
 
-    void OnParticleCollision(GameObject other) 
+    void OnParticleCollision(GameObject other)
     {
-              
-        scoreBoard.IncreaseScore(countScore);
-        
-      //  Debug.Log($"{this.name}hit on + {other.gameObject.name}");
+        ProcessHit();
+        if (hitCountandKill < 1)
+        {
+            KillEnemy();
+        }
+    }
 
+     void KillEnemy()
+    {
         GameObject VFX = Instantiate(gameVFX, transform.position, Quaternion.identity); // khởi tạo 1 đối tượng VFX
         VFX.transform.parent = parent;  // gán đôi tượng  làm con của  thằng parent 
-                 Destroy(gameObject);     
+        Destroy(gameObject);
+    }
+
+    void ProcessHit()
+    {
+        GameObject VFX = Instantiate(HitVFX, transform.position, Quaternion.identity); // khởi tạo 1 đối tượng VFX
+        VFX.transform.parent = parent;  // gán đôi tượng  làm con của  thằng parent 
+        hitCountandKill = hitCountandKill - 1;
+
+        scoreBoard.IncreaseScore(countScore);
+        //  Debug.Log($"{this.name}hit on + {other.gameObject.name}");
     }
 }
