@@ -16,6 +16,7 @@ Material:
   - _ALPHABLEND_ON
   - _COLOROVERLAY_ON
   - _FADING_ON
+  - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0

@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8625157374961831876, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 8705435786048431708, guid: ec32bac21df884540a941c51ef9cafcc, type: 3}
       propertyPath: playOnAwake
       value: 0
