@@ -1072,6 +1072,7 @@ GameObject:
   - component: {fileID: 7266735163589537409}
   - component: {fileID: 8838241505185682412}
   - component: {fileID: 7939614143569614165}
+  - component: {fileID: 5907059665316630067}
   m_Layer: 0
   m_Name: StarSparrowBlack
   m_TagString: Untagged
@@ -1159,9 +1160,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameVFX: {fileID: 2243977402846556818, guid: 62d6f6f3b8027b64ebb383736e343154, type: 3}
   HitVFX: {fileID: 2243977402846556818, guid: 9d33890f76a3b41408b3deb90a78fb67, type: 3}
-  parent: {fileID: 0}
   countscore: 15
   countAndKill: 2
+--- !u!95 &5907059665316630067
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514029198910515120}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8685310045236304769
 GameObject:
   m_ObjectHideFlags: 0

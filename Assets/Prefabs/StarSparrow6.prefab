@@ -8,6 +8,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1777254534171642187, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: m_NormalDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879853505212767172, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: InitialModule.size3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879853505212767172, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: TrailModule.minVertexDistance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879853505212767172, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879853505212767172, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879853505212767172, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: CollisionModule.collidesWithDynamic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3381094111843288814, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -23,6 +47,10 @@ PrefabInstance:
     - target: {fileID: 4917093290029304064, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
       propertyPath: m_Name
       value: StarSparrow6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885186334572979841, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7984967100496557342, guid: 0be2b3a42d3b4504c8e1e1ddff3f29af, type: 3}
       propertyPath: m_RootOrder
